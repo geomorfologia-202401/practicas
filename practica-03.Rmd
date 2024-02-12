@@ -1,0 +1,51 @@
+---
+title: Practica 3. Tiempo en geomorfología
+author: <b>José-Ramón Martínez-Batlle</b> (jmartinez19@uasd.edu.do) <br> Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br> Santo Domingo, República Dominicana
+bibliography: references.bib
+csl: apa-es.csl
+lang: es
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- Este archivo se genera a partir de otro del mismo nombre con extensión .Rmd. Por favor, edita ese archivo. -->
+
+> Fecha de entrega: 1 de octubre, 23:59 horas.
+
+
+```{r, echo=F, include=F}
+set.seed(99)
+terminales_1d <- 0:99
+terminales_2d <- ifelse(nchar(terminales_1d)==1, paste0(0, terminales_1d), terminales_1d)
+`Porcentaje remanente` <- sample(terminales_1d, replace = F)
+```
+
+
+
+## EJERCICIO 1: Datación absoluta a partir del porcentaje isotópico remanente
+
+Enviaste una muestra para datación por radioisótopo <sup>14</sup>C al laboratorio, y te reportaron que el porcentaje remanente es el asignado abajo (usa los dos dígitos terminales de tu matrícula para encontrar el porcentaje asignado a ti). Usa la fórmula N<sub>0</sub>=Ne<sup>-&lambda;t</sup> y la tabla 6.1 de @anderson2010geomorphology para calcular la edad aproximada de la muestra. Interpreta el resultado.
+
+```{r, include=F, echo=F}
+porc_df <- data.frame(`Dos dígitos terminales de matrícula` = terminales_2d, `Porcentaje remanente`, check.names = F)
+```
+
+```{r, echo=F}
+knitr::kable(porc_df)
+```
+
+
+### Escribe un párrafo interpretativo sobre el resultado del ejercicio 1.
+
+
+## EJERCICIO 2: Datación relativa
+
+Usa [este mapa geológico](data/practica-03/practica-03.jpg), localiza tu cuadro de 5x5 km asignado (debe coincidir con los dos últimos dígitos de tu matrícula). Identifica las rocas que hay dentro del cuadro, tanto su tipología, como su edad (si no logras ver las rocas o el mapa es difuso, puedes confirmar con [este](https://drive.google.com/file/d/1NKyZjxzIedFq6Lq0bx-2YrGq5PtMh_r7/view), o con [este](data/practica-03/geo250k.jpg) o con [este otro](data/practica-03/geo250k.tif)). Refresca la cronología siguiendo la tabla cronoestratigráfica internacional, usando [este enlace](data/practica-03/tabla-cronoestratigrafica-2021.pdf) o [este otro](https://stratigraphy.org/ICSchart/ChronostratChart2021-05Spanish.pdf). Redacta un párrafo que sintetice la evolución del relieve, con sus dataciones relativas debidamente identificadas.
+
+
+## Criterios de evaluación y escala de valoración
+
+
+
+## Referencias
