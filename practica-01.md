@@ -1,18 +1,18 @@
 # Práctica 1. Mapa geomorfológico de RD
 
-> Fecha de entrega: 13 de septiembre, 23:59 horas.
+> Fecha de entrega: 12 de febrero de 2024, 20:00 horas.
 
 1. Abre una hoja del [mapa geomorfológico escala 1:100,000 de RD](https://sgn.gob.do/index.php/geologia-y-tematicos/info-geomorfologia). Asegúrate de que, el que elijas, dispone de memoria geomorfológica, y que, además, cuenta con al menos diez elementos de leyenda.
 
-2. Concéntrate en la leyenda. Elige tres elementos de la leyenda. **IMPORTANTE**. Dado que la layenda es estándar para todo el país, algunos elementos que están en la leyenda podrían no estar representados en la hoja que elijas. Asegúrate de que los elementos de leyenda que elijas, estén representados en el mapa que hayas seleccionado.
+2. Concéntrate en la leyenda. Elige tres elementos de la leyenda. **IMPORTANTE**. Dado que la layenda es estándar para todo el país, algunos elementos que están en la leyenda podrían no estar representados en la hoja que elijas. Asegúrate de que los elementos de leyenda que elijas, estén representados en el mapa seleccionado.
 
 3. Documéntate sobre ellos brevemente. Usa libros, inteligencia artificial, imágenes, artículos científicos.
 
-4. Identifica la localización de cada uno de los tres elemento en el mapa. Anótalos.
+4. Identifica la localización de cada uno de los tres elementos en el mapa. Anótalos.
 
-5. Redacta, en dos párrafos, una descripción de estos tres elementos, primero indicando cuáles elegiste, y luego redactando tu descripción. No te preocupes si omites detalles técnicos o si no conoces en detalle los elementos elegidos. Investiga rápidamente sobre qué son, pero no pierdas tiempo en obtener detalles. Más bien, céntrate en describir lo que ves en el mapa, los patrones espaciales que ves en relación con dichos elementos.
+**ENTREGABLE** 5. Redacta, en dos párrafos, una descripción de estos tres elementos, primero indicando cuáles elegiste, y luego redactando tu descripción. No te preocupes si omites detalles técnicos o si no conoces los pormenores de cada elemento. Investiga rápidamente sobre qué son dichos elementos, sin profundizar excesivamente. Más bien, céntrate en describir lo que ves en el mapa, los patrones espaciales que ves en relación con dichos elementos (lo necesitarás luego).
 
-6. Formula una pregunta de investigación de cada elemento elegido en su relación con el territorio.
+**ENTREGABLE** 6. Formula al menos tres preguntas de investigación en relación con uno o varios de los elementos elegidos (te dejo ejemplos abajo). La primera pregunta deberá tratar sobre la distribución espacial (e.g. el patrón singular o no) de uno o varios elementos (puedes usarlos a todos, o sólo uno). La segunda pregunta debe ser de tipo metodológico sobre el o los elementos (de nuevo, puedes mezclar todos los elementos, o elegir uno para formular la pregunta), donde te plantees cuestiones (dudas) sobre cómo estudiarlos. La tercera pregunta de tipo geomorfométrico, donde te plantees cuestiones sobre el tamaño o forma de uno o de todos los elementos seleccionados.
 
 ## Definamos los criterios de evaluación
 
@@ -108,7 +108,7 @@ Hoja elegida: Santo Domingo (HGM6271)
 
 Elementos de leyenda elegidos: (1) Gravas, arenas y lutitas (Llanura de inundación). Pleistoceno-Holoceno; (2) Piedomente; (3) Dolina.
 
-> 5. Redacta, en dos párrafos, una descripción de estos tres elementos, primero indicando cuáles elegiste, y luego redactando tu descripción. No te preocupes si omites detalles técnicos o si no conoces en detalle los elementos elegidos. Investiga rápidamente sobre qué son, pero no pierdas tiempo en obtener detalles. Más bien, céntrate en describir lo que ves en el mapa, los patrones espaciales que ves en relación con dichos elementos.
+> **MANDATO DEL TALI**. 5. Redacta, en dos párrafos, una descripción de estos tres elementos, primero indicando cuáles elegiste, y luego redactando tu descripción. No te preocupes si omites detalles técnicos o si no conoces en detalle los elementos elegidos. Investiga rápidamente sobre qué son, pero no pierdas tiempo en obtener detalles. Más bien, céntrate en describir lo que ves en el mapa, los patrones espaciales que ves en relación con dichos elementos.
 
 Para desarrollar esta práctica, **elegí la hoja "Santo Domingo (6271)", del Mapa geomorfológico y de procesos activos susceptibles de constituir riesgo geológico de la República Dominicana, escala 1:100,000** (Díaz de Neira, 2010). La hoja muestra la geomorfología del área correspondiente a la provincia Santo Domingo y entorno (ver figura 1). La leyenda se divide en dos grandes grupos, "Formas" y "Formaciones superficiales", que corresponden respectivamente a los elementos morfológicos (símbolos puntuales mostrados de forma unitaria o conformando tramas, así como símbolos lineales) y a los depósitos predominantes (rellenos simbolizados empleando variables visuales de tono e intensidad). Ambos elementos de leyenda pueden combinarse para dar una idea completa de la geomorfología de un área determinada, por lo que no son mututamente excluyentes.
 
@@ -117,11 +117,11 @@ Elegí tres elementos del mapa para aprender más sobre ellos, conocer mejor su 
 ![](img/hgm6271.jpg)
 **Figura 1**. Captura de la hoja "Santo Domingo (6271)", Mapa geomorfológico de la República Dominicana (Díaz de Neira, 2010)
 
-> 6. Formula una pregunta de investigación de cada elemento elegido en su relación con el territorio.
-
-- Sobre La formación superficial "gravas, arenas y lutitas en llanura de inundación", cuya representación en planta es normalmente alargada y de corta anchura, ¿es posible su delimitación con técnicas avanzadas de _machine learning_ o de _deep learning_?
+> **MANDATO DEL TALI**. 6. Formula al menos tres preguntas de investigación en relación con uno o varios de los elementos elegidos (te dejo ejemplos abajo). La primera pregunta deberá tratar sobre la distribución espacial (e.g. el patrón singular o no) de uno o varios elementos (puedes usarlos a todos, o sólo uno). La segunda pregunta debe ser de tipo metodológico sobre el o los elementos (de nuevo, puedes mezclar todos los elementos, o elegir uno para formular la pregunta), donde te plantees cuestiones (dudas) sobre cómo estudiarlos. La tercera pregunta de tipo geomorfométrico, donde te plantees cuestiones sobre el tamaño o forma de uno o de todos los elementos seleccionados.
 
 - ¿Por qué en la hoja analizada la forma piedemonte sólo aparece asociada con los monte-isla? Pregunta complementaria: ¿Es posible delimitar el piedemonte basándonos sólo en la pendiente?
+
+- Sobre La formación superficial "gravas, arenas y lutitas en llanura de inundación", cuya representación en planta es normalmente alargada y de corta anchura, ¿es posible su delimitación con técnicas avanzadas de _machine learning_ o de _deep learning_?
 
 - ¿Tienen las dolinas de la hoja Santo Domingo un tamaño promedio de 1 ha? Pregunta complementaria: ¿Son mayoritariamente circulares o elipsoidales?
 
