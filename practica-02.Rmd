@@ -72,7 +72,7 @@ Revisa demostraciones y aplicaciones de geomorfometría en @hengl2009geomorphome
   
 - Parámetros de la superficie del terreno para topoclimas. Capítulo 8 de @hengl2009geomorphometry. Por ejemplo, orientación de vertiente, distancia a la costa.
 
-- Formas y formas elementales. Capítulo 10 de @hengl2009geomorphometry. Por ejemplo, clasificación del relieve por geomórfonos, extracción de depresiones, extracción de piedemontes.
+- Formas y formas elementales. Capítulo 9 de @hengl2009geomorphometry. Por ejemplo, clasificación del relieve por geomórfonos, extracción de depresiones, extracción de piedemontes.
 
 3. Redacta un documento sobre este ejercicio, un miniensayo. Deberás usar estilos de formato ("Título 1", "Normal", etc.), referencias bibliográficas, referencias cruzadas a figuras y tablas. No podrás desarrollar tu redacción usando listas de viñetas ni listas numeradas. Puedes usar una plantilla, como la que coloqué [aquí](plantillas/plantilla-manuscrito.dotx). Distribuye tu texto en las siguientes secciones:
 

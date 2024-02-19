@@ -241,7 +241,7 @@ sólo consúltalo conmigo antes de tomar la decisión):
   Hengl et al. (2009). Por ejemplo, orientación de vertiente, distancia
   a la costa.
 
-- Formas y formas elementales. Capítulo 10 de Hengl et al. (2009). Por
+- Formas y formas elementales. Capítulo 9 de Hengl et al. (2009). Por
   ejemplo, clasificación del relieve por geomórfonos, extracción de
   depresiones, extracción de piedemontes.
 
