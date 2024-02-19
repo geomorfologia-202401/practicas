@@ -24,7 +24,7 @@ Esta práctica tratará **sobre geomorfometría de un área de República Domini
 
 ## Mandato
 
-1. Usando el DEM del Shuttle Radar Topography Mission (SRTM) recortado para un municipio, aplica una técnica geomorfométrica. Los archivos se encuentran en la carpeta [data/practica-02/]([data/practica-02/])
+1. Usando el DEM del Shuttle Radar Topography Mission (SRTM) recortado para un municipio, aplica una técnica geomorfométrica. Los archivos se encuentran en la carpeta [data/practica-02/](data/practica-02/)
 
 ```{r, echo=F}
 library(stringi)

@@ -35,8 +35,7 @@ apropiado de figuras, tablas, citas y referencias.
 
 1.  Usando el DEM del Shuttle Radar Topography Mission (SRTM) recortado
     para un municipio, aplica una técnica geomorfométrica. Los archivos
-    se encuentran en la carpeta
-    [data/practica-02/](%5Bdata/practica-02/%5D)
+    se encuentran en la carpeta [data/practica-02/](data/practica-02/)
 
 <table>
 <thead>
