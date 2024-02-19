@@ -7,51 +7,301 @@ Santo Domingo, República Dominicana
 
 <!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
 
-> Fecha de entrega: 1 de octubre, 23:59 horas.
+# Practica 2. Geomorfometría, reproducibilidad, redacción, estilos de formato, figuras, tablas, citas y referencias
 
-Comenzarás tu manuscrito con la asignación de la próxima semana, y con
-esta práctica vas a “calentar motores”. Tanto el fondo como la forma de
-dicho ensayo son importantes. En cuanto al fondo, es decir, el tema y su
-desarrollo, tratará **sobre geomorfometría de un área de República
-Dominicana**. En cuanto a la forma, deberás lograr una investigación
-reproducible y bien redactada, presentando un documento que cumpla con
-estilos de formato, uso apropiado de figuras, tablas, citas y
-referencias. Esta práctica, en sus dos partes, constituye un apoyo para
-mejorar tus habilidades de manejar datos y presentarlos con nivel
-científico, antes de que comiences a redactar formalmente tú manuscrito.
-Vamos allá.
+> Fecha de entrega: 26 de febrero, 16:00 horas.
 
-## Parte 1. Calcular una sencilla pendiente y redactar.
+> Para el caso de documentos (como en esta práctica), entrega tu archivo
+> vía correo electrónico (jmartinez19@uasd.edu.do) en formato nativo. En
+> el caso de usar software de interfaz gráfica, como Microsoft Word o
+> LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como
+> el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf,
+> RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP)
+> conteniendo los archivos necesarios para compilar el PDF.
 
-1.  Ve a [rdrr.io](https://rdrr.io/snippets/) y genera una matriz de
-    datos 3x3 con el código que te dejo a continuación. La matriz que
-    generarás no será igual a la que te muestro abajo, y cada corrida
-    genera matrices diferentes. Asimismo, el código pegado abajo,
-    representa la matriz en forma de un ráster. IMPORTANTE: ¡captura la
-    pantalla tras ejecutar el código! (pregunta a un tutor de
-    inteligencia artificial cómo hacerlo)
+Vamos a “calentar motores”. El objetivo de esta práctica es que
+demuestres o mejores … a) tus capacidades de realizar análisis
+geomorfométricos; b) tus capacidades de usar software de procesamiento
+de texto; c) tus capacidades de redacción. Esto te preparará, a futuro,
+para el manuscrito.
 
-``` r
-d <- matrix(#Estas líneas generan la matriz
-  data = floor(x = rnorm(n = 9, mean = sample(50:2000)[1], sd = 50)),
-  nrow=3, ncol=3)
-d #Imprime la matriz
-library(raster) #Carga paquete raster
-plot(raster(d)) #Muestra la matriz en forma de un ráster
-```
+Esta práctica tratará **sobre geomorfometría de un área de República
+Dominicana**, intentando que sea una investigación reproducible y bien
+redactada (nada de alto nivel, sólo estamos ensayando). Lo ideal es que
+presentes un un documento que cumpla con estilos de formato, uso
+apropiado de figuras, tablas, citas y referencias.
 
-2.  Con la matriz que obtengas, calcula la pendiente por el método
-    Evans-Young, tal cual se explica en la página 10 de Hengl et al.
-    (2009). Usa todos los apoyos que necesites, desde una simple
-    calculadora de mano u hojas de cálculo, hasta inteligencia
-    artificial (IA). Si usas IA, no le pidas que te resuelva el
-    ejercicio pasándole el mandato tal cual y luego copiando pegando.
-    Más bien, pídele que te explique cómo resolverlo y hazlo por tu
-    cuenta (modo tutor).
+## Mandato
+
+1.  Usando el DEM del Shuttle Radar Topography Mission (SRTM) recortado
+    para un municipio, aplica una técnica geomorfométrica. Los archivos
+    se encuentran en la carpeta
+    [data/practica-02/](%5Bdata/practica-02/%5D)
+
+<table>
+<thead>
+<tr>
+<th style="text-align:right;">
+estudiante
+</th>
+<th style="text-align:left;">
+nombre_archivo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+arenoso.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+jamao_al_norte.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+las_salinas.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:left;">
+san_jose_de_ocoa.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+santa_barbara_de_samana.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+ramon_santana.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:left;">
+tenares.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:left;">
+neyba.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:left;">
+jaquimeyes.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:left;">
+constanza.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:left;">
+sabana_yegua.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:left;">
+yamasa.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:left;">
+monte_plata.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:left;">
+bayaguana.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:left;">
+fantino.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+castanuela.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:left;">
+luperon.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:left;">
+peralta.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:left;">
+imbert.tif
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:left;">
+sabana_grande_de_boya.tif
+</td>
+</tr>
+</tbody>
+</table>
+
+2.  Elige una técnica geomorfométrica de Hengl et al. (2009) y
+    aplícasela a tu DEM. Al hacerlo, obtendrás una característica,
+    variable o parámetro del relieve; por ejemplo, si aplicas la técnica
+    “Geomórfonos” obtendrás una clasificación del relieve. Usa todos los
+    apoyos que necesites, desde el software SIG que mejor conozcas
+    (recomiendo QGIS y GRASS GIS), hasta inteligencia artificial (IA).
+    Si usas IA, no le pidas que te resuelva el ejercicio pasándole el
+    mandato tal cual y luego copiando pegando. Más bien, pídele que te
+    explique cómo resolverlo y hazlo por tu cuenta (modo tutor).
+
+Revisa demostraciones y aplicaciones de geomorfometría en Hengl et al.
+(2009). Estos son los grupos de técnicas que se encuentran en el libro,
+pero debes leer en el interior del libro para enterarte mejor (puedes
+elegir otras que no se encuentren en esta lista y que conozcas mejor;
+sólo consúltalo conmigo antes de tomar la decisión):
+
+- Parámetros básicos de la superficie del terreno (locales y
+  regionales). Capítulo 6 de Hengl et al. (2009). Por ejemplo,
+  pendiente, curvatura, índice de rugosidad topográficas, etc.
+
+- Parámetros de la superficie del terreno y objetos hidrológicos.
+  Capítulo 7 de Hengl et al. (2009). Por ejemplo, acumulación de flujo,
+  dirección de drenaje.
+
+- Parámetros de la superficie del terreno para topoclimas. Capítulo 8 de
+  Hengl et al. (2009). Por ejemplo, orientación de vertiente, distancia
+  a la costa.
+
+- Formas y formas elementales. Capítulo 10 de Hengl et al. (2009). Por
+  ejemplo, clasificación del relieve por geomórfonos, extracción de
+  depresiones, extracción de piedemontes.
 
 3.  Redacta un documento sobre este ejercicio, un miniensayo. Deberás
-    usar estilos de formato (“Título 1”, “Normal”, etc.), y no podrás
-    usar listas de viñetas ni listas numeradas.
+    usar estilos de formato (“Título 1”, “Normal”, etc.), referencias
+    bibliográficas, referencias cruzadas a figuras y tablas. No podrás
+    desarrollar tu redacción usando listas de viñetas ni listas
+    numeradas. Puedes usar una plantilla, como la que coloqué
+    [aquí](plantillas/plantilla-manuscrito.dotx). Distribuye tu texto en
+    las siguientes secciones:
+
+- **Introducción** (tamaño recomendado: 3 párrafos). Desde lo amplio,
+  comienza escribiendo sobre geomorfometría (qué es). A continuación,
+  explica en qué consiste el parámetro que has elegido, su importancia,
+  por qué es necesario calcularlo, para qué se usa. Plantea tu o tus
+  objetivos, que en este caso son bastante sencillos. Cierra con la
+  importancia que reviste obtener el parámetro o rasgo geomorfométrico
+  que has elegido respecto del conjunto de la ciencia.
+
+  - Dentro de esta sección, debes incluir al menos tres citas. Los
+    conceptos y afirmaciones ajenas, deben citarse bibliográficamente, y
+    nunca deberás usar cita literal, pues se considera plagio. Las citas
+    bibliográficas que incluyas, deberán estar respaldadas por sus
+    correspondientes cuyas referencias, que deberán aparecer en la
+    sección final (Referencias). Las citas y la lista de referencias,
+    deberán seguir el estándar APA 7ma edición (APA7). Es casi
+    imprescindible que uses un gestor de citas y referencias, como
+    Zotero.
+
+- **Materiales y métodos** (tamaño recomendado: 2 párrafos). Explica
+  cómo obtuviste los datos que usaste, y documenta en qué consiste la
+  fuente. Arriba te especifiqué que se trata del DEM SRTM, pero debes
+  describirlo y citar fuentes. Debes igualmente citar el software y
+  hardware usado, y las referencias sobre la técnica el algoritmo
+  empleado. Dentro de la redacción, debes incluir al menos dos citas. Si
+  incluyes un diagrama de flujo metodológico (“metodología gráfica”), te
+  resultará más fácil explicar tu metodología. **No adelantes
+  resultados, sólo escribe que fuentes y herramientas usaste
+  (materiales) y qué técnicas concretas o algoritmos utilizaste
+  (métodos)**. Toda figura y tabla que insertes debe citarse con
+  referencia cruzada (“ver Figura 1”). Usa un sistema de referencia
+  cruzada asistido por el procesador de texto que uses (pregunta a tu
+  tutor de inteligencia artificial de preferencia cómo insertar títulos
+  a tablas y figuras, y cómo referirlos en el texto; también pregúntale
+  cómo insertar y referir fórmulas).
+
+- **Resultados** (tamaño recomendado: 1 párrafo). El parámetro o
+  variable morfométrica que obtuviste, presentándolo en sus respectivas
+  componentes. No hagas valoraciones en esta sección, simplemente
+  incluye el resultado obtenido.
+
+- **Discusión** (tamaño recomendado: 2 párrafos). Abre la discusión
+  indicando si alcanzaste tus objetivos. Describe por qué era importante
+  alcanzarlos. Comenta sobre las limitaciones, de cualquier tipo, ya sea
+  las limitaciones de los datos, de la técnicas, de los objetivos de
+  aprendizaje. Cierra indicando qué desafíos futuros quedan abiertos
+  tras este trabajo.
+
+- **Referencias**. Las referencias que hayas citado arriba, las deberás
+  incluir aquí en formato APA 7ma edición.
 
 > **RECUADRO: recomendaciones básicas de redacción**
 >
@@ -62,13 +312,13 @@ plot(raster(d)) #Muestra la matriz en forma de un ráster
 >
 > **Voz activa en manuscrito científicos:**
 >
-> -   **Analicé** los datos utilizando el software R.
+> - **Analicé** los datos utilizando el software R.
 >
-> -   El experimento **mostró** que la temperatura afecta directamente
->     la tasa de reacción.
+> - El experimento **mostró** que la temperatura afecta directamente la
+>   tasa de reacción.
 >
-> -   Los investigadores **encontraron** una correlación significativa
->     entre las dos variables.
+> - Los investigadores **encontraron** una correlación significativa
+>   entre las dos variables.
 >
 > La voz activa puede hacer que la redacción parezca más directa y
 > clara, y es especialmente útil cuando el/la autor/a quiere enfatizar
@@ -77,13 +327,13 @@ plot(raster(d)) #Muestra la matriz en forma de un ráster
 >
 > **Voz pasiva en artículos científicos:**
 >
-> -   Los datos **fueron analizados** utilizando el software R.
+> - Los datos **fueron analizados** utilizando el software R.
 >
-> -   **Se observó** que la temperatura afecta directamente la tasa de
->     reacción.
+> - **Se observó** que la temperatura afecta directamente la tasa de
+>   reacción.
 >
-> -   Una correlación significativa **fue encontrada** entre las dos
->     variables.
+> - Una correlación significativa **fue encontrada** entre las dos
+>   variables.
 >
 > La voz pasiva es común en la redacción científica porque a menudo se
 > prefiere un tono más impersonal, enfocando la atención en los
@@ -102,117 +352,17 @@ plot(raster(d)) #Muestra la matriz en forma de un ráster
 > cosas, cuidate de no caer en esa trampa). Nunca le pidas referencias
 > bibliográficas, porque se va equivocar.
 
-Distribuye tu texto en las siguientes cinco secciones:
-
--   **Introducción** (tamaño recomendado: 3 párrafos). Desde lo amplio,
-    comienza escribiendo sobre geomorfometría (qué es). A continuación,
-    explica que es la pendiente, su importancia, por qué es necesario
-    calcularla, para qué se usa. Plantea tu o tus objetivos, que en este
-    caso son bastante sencillos. Cierra con la importancia del cálculo
-    de la pendiente respecto del conjunto de la ciencia.
-
-    Dentro de esta sección, debes incluir al menos tres citas. Los
-    conceptos y afirmaciones ajenas, deben citarse bibliográficamente, y
-    nunca deberás usar cita literal, pues se considera plagio. Las citas
-    bibliográficas que incluyas, deberán estar respaldadas por sus
-    correspondientes cuyas referencias, que deberán aparecer en la
-    sección final (Referencias). Las citas y la lista de referencias,
-    deberán seguir el estándar APA 7ma edición (APA7). Es casi
-    imprescindible que uses un gestor de citas y referencias, como
-    Zotero.
-
--   **Materiales y métodos** (tamaño recomendado: 2 párrafos). Explica
-    cómo obtuviste los datos que usaste, y describe brevemente el método
-    Evans-Young y cómo lo aplicaste. Dentro de la redacción, debes
-    incluir al menos dos citas. También deberás incluir la matriz de
-    datos en forma de tabla, y también deberás mostrarla en forma de una
-    figura (“Figura 1”), y la o las fórmulas empleadas (no adelantes
-    resultados, es decir, no des el resultado de la pendiente calculada,
-    simplemente explica cómo la calculaste). La tabla, la figura y la
-    cita debes referirlas en el texto (“ver tabla X”), usando un sistema
-    de referencia cruzada asistido por el procesador de texto que uses
-    (pregunta a tu tutor de inteligencia artificial de preferencia cómo
-    insertar títulos a tablas y figuras, y cómo referirlos en el texto;
-    también pregúntale cómo insertar y referir fórmulas).
-
--   **Resultados** (tamaño recomendado: 1 párrafo). El cálculo de
-    pendiente que obtuviste, presentándolo en sus respectivas
-    componentes. No hagas valoraciones en esta sección, simplemente
-    incluye el resultado obtenido.
-
--   **Discusión** (tamaño recomendado: 2 párrafos). Abre la discusión
-    indicando si alcanzaste tus objetivos. Describe por qué era
-    importante alcanzarlos. Comenta sobre las limitacines, de cualquier
-    tipo, ya sea las limitaciones de los datos, de la técnicas, de los
-    objetivos de aprendizaje. Cierra indicando qué desafíos futuros
-    quedan abiertos tras este trabajo.
-
--   **Referencias**. Las referencias que hayas citado arriba, las
-    deberás incluir aquí en formato APA 7ma edición.
-
-## Parte 2. Elige una técnica y un sistema geomorfológico, y justifícalos
-
-1.  Revisa demostraciones y aplicaciones de geomorfometría en Hengl
-    et al. (2009). Usarás una técnica geomorfométrica (por ejemplo,
-    acumulación de flujo, clasificación del relieve) para aplicarla a un
-    sistema geomorfológico dominicano (por ejemplo, un río, un karst,
-    una vertiente). Es una decisión importante, porque será el mismo
-    tema que desarrollarás en tu manuscrito. Guíate de las listas a
-    continuación, y de las demostraciones que encontrarás en el libro
-    citado. Algunas recomendaciones viables:
-
--   Tecnica geomorfométrica:
-
-    -   Parámetros básicos de la superficie del terreno (locales y
-        regionales). Capítulo 6 de Hengl et al. (2009).
-
-    -   Parámetros de la superficie del terreno y objetos hidrológicos.
-        Capítulo 7 de Hengl et al. (2009).
-
-    -   Parámetros de la superficie del terreno para topoclimas.
-        Capítulo 8 de Hengl et al. (2009).
-
-    -   Formas y formas elementales. Capítulo 10 de Hengl et al. (2009).
-
--   Sistemas geomorfológicos:
-
-    -   Fluvial (ríos y relacionados).
-
-    -   De vertiente.
-
-    -   Litoral y costa.
-
-    -   Eólico.
-
-    -   Kárstico
-
-2.  Elige la técnica y el sistema geomorfológico que usarás, y
-    justifícalo.
-
--   Tecnica geomorfométrica elegido:
-
--   Sistema geomorfológico elegido:
-
--   Justificación:
-
 ## Criterios de evaluación y escala de valoración
 
-| Criterio                                             | Insatisfactorio (0-1)                            | Básico (2-3)                                     | Competente (4-5)                                                 | Avanzado (6-7)                               | Experto (8-10)                                          |
-|------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|------------------------------------------------------------------|----------------------------------------------|---------------------------------------------------------|
-| **Geomorfometría**                                   |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Cálculo de pendiente por método Evans-Young          | No realiza cálculo                               | Realiza cálculo con errores                      | Cálculo realizado correctamente                                  | Cálculo detallado y preciso                  | Cálculo experto con justificación                       |
-| **Reproducibilidad**                                 |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Uso de datos y código                                | No muestra datos o código                        | Muestra datos pero no código                     | Muestra ambos pero con falta de claridad                         | Usa datos y código de manera clara           | Usa datos y código con perfecta claridad y reproducción |
-| **Redacción**                                        |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Claridad y estructura del texto                      | Texto confuso sin estructura, voz no consistente | Redacción básica con errores, voz no consistente | Redacción clara con estructura, voz consistente pero con errores | Texto muy bien estructurado, voz consistente | Redacción impecable y articulada, voz consistente       |
-| **Estilos de formato**                               |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Uso de estilos en el documento                       | No utiliza estilos                               | Usa estilos pero no consistentemente             | Usa estilos consistentemente                                     | Usa estilos de manera avanzada               | Usa estilos con maestría                                |
-| **Figuras, tablas y fórmulas**                       |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Presentación e integración en el texto               | No incluye figuras, tablas o fórmulas            | Incluye pero no las referencia correctamente     | Incluye y referencia adecuadamente                               | Uso avanzado y preciso de figuras y tablas   | Presentación experta y perfectamente integrada          |
-| **Citas y Referencias**                              |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Uso del formato APA7                                 | No utiliza APA7                                  | Usa APA7 pero con errores                        | Usa APA7 con mínimos errores                                     | Usa APA7 casi perfectamente                  | Uso experto y perfecto de APA7                          |
-| **Técnica geomorfométrica y sistema geomorfológico** |                                                  |                                                  |                                                                  |                                              |                                                         |
-| Elección y justificación                             | No elige o justifica                             | Elección sin justificación                       | Elección con justificación básica                                | Elección con buena justificación             | Elección con justificación experta                      |
+| Criterio                          | Nivel 1 (En Desarrollo)                                                  | Nivel 2 (Aceptable)                                                | Nivel 3 (Bueno)                                                                                  | Nivel 4 (Excelente)                                                                                  |
+|-----------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **Análisis Geomorfométricos**     | Análisis incompleto o incorrecto de los datos geomorfométricos.          | Análisis básico y correcto de los datos geomorfométricos.          | Análisis detallado y correcto de los datos geomorfométricos.                                     | Análisis exhaustivo y avanzado de los datos geomorfométricos.                                        |
+| **Uso de Software**               | Uso limitado y con errores del software de procesamiento de texto y SIG. | Uso adecuado del software de procesamiento de texto y SIG.         | Buen manejo del software de procesamiento de texto y SIG, con algunas características avanzadas. | Excelente manejo del software de procesamiento de texto y SIG, incluyendo características avanzadas. |
+| **Redacción y Estilo**            | Redacción pobre con numerosos errores gramaticales y de estilo.          | Redacción clara con algunos errores gramaticales y de estilo.      | Redacción fluida y coherente con pocos errores gramaticales.                                     | Redacción impecable y elegante sin errores gramaticales.                                             |
+| **Formato y Estructura**          | Formato y estructura incorrectos o ausentes.                             | Formato y estructura básicos y mayormente correctos.               | Buen formato y estructura, con adecuada organización del documento.                              | Excelente formato y estructura, con organización perfecta del documento.                             |
+| **Uso de Figuras y Tablas**       | Uso inadecuado o ausente de figuras y tablas.                            | Uso básico y correcto de figuras y tablas.                         | Uso adecuado de figuras y tablas, con buena integración en el texto.                             | Uso excelente de figuras y tablas, perfectamente integradas en el texto.                             |
+| **Citas y Referencias**           | Citas y referencias inadecuadas o incorrectamente formateadas.           | Citas y referencias adecuadas con algunos errores de formato.      | Citas y referencias bien utilizadas y mayormente en el formato correcto.                         | Uso ejemplar de citas y referencias, perfectamente formateadas según APA 7ma edición.                |
+| **Reproducibilidad del Análisis** | Análisis no reproducible o con instrucciones poco claras.                | Análisis mayormente reproducible con algunas instrucciones claras. | Análisis bien documentado y reproducible con instrucciones detalladas.                           | Análisis perfectamente documentado y totalmente reproducible con instrucciones claras y completas.   |
 
 ## Referencias
 
