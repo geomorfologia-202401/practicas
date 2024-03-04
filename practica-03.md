@@ -6,123 +6,19 @@ Santo Domingo, República Dominicana
 
 <!-- Este archivo se genera a partir de otro del mismo nombre con extensión .Rmd. Por favor, edita ese archivo. -->
 
-> Fecha de entrega: 1 de octubre, 23:59 horas.
+> Fecha de entrega: en aula
 
-## EJERCICIO 1: Datación absoluta a partir del porcentaje isotópico remanente
+# Practica 3. Tiempo en geomorfología
 
-Enviaste una muestra para datación por radioisótopo <sup>14</sup>C al
-laboratorio, y te reportaron que el porcentaje remanente es el asignado
-abajo (usa los dos dígitos terminales de tu matrícula para encontrar el
-porcentaje asignado a ti). Usa la fórmula N<sub>0</sub>=Ne<sup>-λt</sup>
-y la tabla 6.1 de Anderson y Anderson (2010) para calcular la edad
-aproximada de la muestra. Interpreta el resultado.
+## Objetivo
 
-| Dos dígitos terminales de matrícula | Porcentaje remanente |
-|:------------------------------------|---------------------:|
-| 00                                  |                   47 |
-| 01                                  |                   32 |
-| 02                                  |                   43 |
-| 03                                  |                   21 |
-| 04                                  |                   61 |
-| 05                                  |                   31 |
-| 06                                  |                   12 |
-| 07                                  |                   19 |
-| 08                                  |                   30 |
-| 09                                  |                   67 |
-| 10                                  |                    8 |
-| 11                                  |                   81 |
-| 12                                  |                   87 |
-| 13                                  |                   29 |
-| 14                                  |                   85 |
-| 15                                  |                   83 |
-| 16                                  |                   94 |
-| 17                                  |                   13 |
-| 18                                  |                    3 |
-| 19                                  |                   77 |
-| 20                                  |                    6 |
-| 21                                  |                   70 |
-| 22                                  |                   37 |
-| 23                                  |                   84 |
-| 24                                  |                   57 |
-| 25                                  |                   53 |
-| 26                                  |                   45 |
-| 27                                  |                   97 |
-| 28                                  |                   75 |
-| 29                                  |                   64 |
-| 30                                  |                   82 |
-| 31                                  |                   59 |
-| 32                                  |                   91 |
-| 33                                  |                   74 |
-| 34                                  |                   62 |
-| 35                                  |                   80 |
-| 36                                  |                   38 |
-| 37                                  |                   14 |
-| 38                                  |                   51 |
-| 39                                  |                   76 |
-| 40                                  |                   20 |
-| 41                                  |                   46 |
-| 42                                  |                   79 |
-| 43                                  |                   16 |
-| 44                                  |                   66 |
-| 45                                  |                   28 |
-| 46                                  |                   44 |
-| 47                                  |                   11 |
-| 48                                  |                   89 |
-| 49                                  |                   34 |
-| 50                                  |                   39 |
-| 51                                  |                   78 |
-| 52                                  |                   49 |
-| 53                                  |                   63 |
-| 54                                  |                   50 |
-| 55                                  |                   10 |
-| 56                                  |                   48 |
-| 57                                  |                   42 |
-| 58                                  |                   88 |
-| 59                                  |                   65 |
-| 60                                  |                   54 |
-| 61                                  |                   90 |
-| 62                                  |                   55 |
-| 63                                  |                    2 |
-| 64                                  |                   26 |
-| 65                                  |                   68 |
-| 66                                  |                   27 |
-| 67                                  |                   60 |
-| 68                                  |                   40 |
-| 69                                  |                   41 |
-| 70                                  |                   56 |
-| 71                                  |                    7 |
-| 72                                  |                   36 |
-| 73                                  |                   71 |
-| 74                                  |                   24 |
-| 75                                  |                   18 |
-| 76                                  |                   25 |
-| 77                                  |                    4 |
-| 78                                  |                   22 |
-| 79                                  |                   58 |
-| 80                                  |                   33 |
-| 81                                  |                   15 |
-| 82                                  |                   72 |
-| 83                                  |                   23 |
-| 84                                  |                    5 |
-| 85                                  |                   17 |
-| 86                                  |                    9 |
-| 87                                  |                   98 |
-| 88                                  |                   35 |
-| 89                                  |                   99 |
-| 90                                  |                   93 |
-| 91                                  |                   92 |
-| 92                                  |                   95 |
-| 93                                  |                    0 |
-| 94                                  |                   69 |
-| 95                                  |                   73 |
-| 96                                  |                    1 |
-| 97                                  |                   96 |
-| 98                                  |                   52 |
-| 99                                  |                   86 |
+Proponer una cronología para el relieve a partir de la información
+extraída desde el mapa geológico, interpretando la evolución
+geomorfológica más probable según las secuencias estratigráficas
+visibles en el área seleccionada, en el entorno y en el contexto
+regional.
 
-### Escribe un párrafo interpretativo sobre el resultado del ejercicio 1.
-
-## EJERCICIO 2: Datación relativa
+## EJERCICIO único: Datación relativa de relieves
 
 Usa [este mapa geológico](data/practica-03/practica-03.jpg), localiza tu
 cuadro de 5x5 km asignado (debe coincidir con los dos últimos dígitos de
@@ -140,16 +36,12 @@ dataciones relativas debidamente identificadas.
 
 ## Criterios de evaluación y escala de valoración
 
+| Criterio                                | Nivel 1 (En Desarrollo)                                                         | Nivel 2 (Aceptable)                                                                   | Nivel 3 (Bueno)                                                           | Nivel 4 (Excelente)                                                                                   |
+|-----------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Interpretación de Mapas Geológicos**  | Interpretación inadecuada o incorrecta de los mapas geológicos.                 | Interpretación básica de los mapas geológicos con algunos errores.                    | Interpretación correcta y detallada de los mapas geológicos.              | Interpretación excepcionalmente precisa y completa de los mapas geológicos.                           |
+| **Propuesta de Cronología del Relieve** | Propuesta de cronología del relieve poco clara o incoherente.                   | Cronología del relieve coherente pero con imprecisiones o falta de detalle.           | Propuesta de cronología del relieve bien fundamentada y detallada.        | Excelente y detallada propuesta de cronología del relieve con justificación sólida.                   |
+| **Uso de Secuencias Estratigráficas**   | Uso inadecuado o incorrecto de secuencias estratigráficas en la interpretación. | Uso adecuado de secuencias estratigráficas con algunos errores de interpretación.     | Uso correcto y eficaz de secuencias estratigráficas en la interpretación. | Uso excepcional de secuencias estratigráficas para una interpretación detallada y completa.           |
+| **Contextualización Geomorfológica**    | Poca o ninguna contextualización geomorfológica del área seleccionada.          | Contextualización básica del área, pero falta de integración en el contexto regional. | Buena contextualización geomorfológica del área en el contexto regional.  | Excelente contextualización geomorfológica, integrando completamente el área en el contexto regional. |
+| **Calidad de la Redacción**             | Redacción pobre con numerosos errores gramaticales y de estilo.                 | Redacción clara con algunos errores gramaticales y de estilo.                         | Redacción bien estructurada con pocos errores gramaticales.               | Redacción impecable, estructurada y coherente, sin errores gramaticales.                              |
+
 ## Referencias
-
-<div id="refs" class="references csl-bib-body hanging-indent"
-line-spacing="2">
-
-<div id="ref-anderson2010geomorphology" class="csl-entry">
-
-Anderson, R. S. y Anderson, S. P. (2010). *Geomorphology: the mechanics
-and chemistry of landscapes*. Cambridge University Press.
-
-</div>
-
-</div>
