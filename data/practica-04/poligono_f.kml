@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="poligono_11" id="poligono_11">
+<Schema name="poligono_f" id="poligono_f">
 	<SimpleField name="id" type="string"></SimpleField>
 </Schema>
-<Folder><name>poligono_11</name>
+<Folder><name>poligono_f</name>
   <Placemark>
-	<name>data/practica-04/poligono_11.kml</name>
+	<name>data/practica-04/poligono_f.kml</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.1,19.4 -69.9,19.4 -69.9,19.6 -70.1,19.6 -70.1,19.4</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.8,18.9 -71.6,18.9 -71.6,19.1 -71.8,19.1 -71.8,18.9</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
 </Folder>
 </Document></kml>
