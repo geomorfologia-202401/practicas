@@ -11,3 +11,5 @@
 ## [Practica 4. Descarga y preprocesa fuentes de elevación](practica-04.md)
 
 <!-- ## [Practica 5. Realiza un flujo de trabajo completo de morfometría fluvial / hidrología computacional](practica-05.md) -->
+
+## [Práctica 6. Práctica con datos GNSS]

@@ -1,4 +1,4 @@
-Práctica GNSSS
+Práctica con datos GNSS
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
@@ -24,3 +24,7 @@ plot(qr_code('https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EF
 ```
 
 <img src="practica-06_files/figure-gfm/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" />
+
+Para convertir archivo Unicore (de la base), usar Converter, que se
+encuentra
+[aquí](https://github.com/Stefal/rtkbase/files/14365511/converter3-0-7.zip)
