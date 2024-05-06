@@ -16,7 +16,8 @@ Santo Domingo, República Dominicana
 > (comprimida en ZIP) conteniendo los archivos necesarios para compilar
 > el PDF.
 
-Datos GNSS
+-   [Datos
+    GNSS](https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EFcXFGMP?usp=drive_link)
 
 ``` r
 library(qrcode)
@@ -25,6 +26,14 @@ plot(qr_code('https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EF
 
 <img src="practica-06_files/figure-gfm/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" />
 
-Para convertir archivo Unicore (de la base), usar Converter, que se
-encuentra
-[aquí](https://github.com/Stefal/rtkbase/files/14365511/converter3-0-7.zip)
+-   Para convertir archivo Unicore (de la base), usar Converter, que se
+    encuentra
+    [aquí](https://github.com/Stefal/rtkbase/files/14365511/converter3-0-7.zip)
+
+-   [RTKLib Demo5](https://github.com/rtklibexplorer/RTKLIB/releases)
+
+    -   [Versión b34i (más reciente en mayo de
+        2024)](https://github.com/rtklibexplorer/RTKLIB/releases/download/b34i/demo5_b34i.zip)
+
+-   [UCenter, de
+    u-blox](https://content.u-blox.com/sites/default/files/2024-04/u-centersetup_v24.02.zip)
