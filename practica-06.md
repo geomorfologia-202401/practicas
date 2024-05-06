@@ -26,8 +26,10 @@ plot(qr_code('https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EF
 
 <img src="practica-06_files/figure-gfm/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" />
 
--   Para convertir archivo Unicore (de la base), usar Converter, que se
-    encuentra
+-Software:
+
+-   Converter de Unicore. Para convertir archivo Unicore (de la base),
+    usar Converter, que se encuentra
     [aquí](https://github.com/Stefal/rtkbase/files/14365511/converter3-0-7.zip)
 
 -   [RTKLib Demo5](https://github.com/rtklibexplorer/RTKLIB/releases)
