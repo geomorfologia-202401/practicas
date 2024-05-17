@@ -49,6 +49,14 @@ library(qrcode)
 plot(qr_code('https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EFcXFGMP?usp=drive_link'))
 ```
 
+- [Vídeo de apoyo](https://drive.google.com/file/d/1j4YXlBTxb_ouYsBzqIQgPyhpCdn09WoN/view?usp=drive_link)
+
+```{r}
+library(qrcode)
+plot(qr_code('https://drive.google.com/file/d/1j4YXlBTxb_ouYsBzqIQgPyhpCdn09WoN/view?usp=drive_link'))
+```
+
+
 -Software:
 
   - Converter de Unicore. Para convertir archivo Unicore (de la base), usar Converter, que se encuentra [aquí](https://github.com/Stefal/rtkbase/files/14365511/converter3-0-7.zip)

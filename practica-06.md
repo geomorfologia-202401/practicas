@@ -26,6 +26,16 @@ plot(qr_code('https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EF
 
 <img src="practica-06_files/figure-gfm/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" />
 
+-   [Vídeo de
+    apoyo](https://drive.google.com/file/d/1j4YXlBTxb_ouYsBzqIQgPyhpCdn09WoN/view?usp=drive_link)
+
+``` r
+library(qrcode)
+plot(qr_code('https://drive.google.com/file/d/1j4YXlBTxb_ouYsBzqIQgPyhpCdn09WoN/view?usp=drive_link'))
+```
+
+<img src="practica-06_files/figure-gfm/unnamed-chunk-3-1.png" width="80%" style="display: block; margin: auto;" />
+
 -Software:
 
 -   Converter de Unicore. Para convertir archivo Unicore (de la base),
