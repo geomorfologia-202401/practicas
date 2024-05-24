@@ -1,4 +1,4 @@
-Práctica con datos GNSS
+Práctica 6. Procesa datos GNSS y obtén soluciones fijas
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
@@ -15,6 +15,13 @@ Santo Domingo, República Dominicana
 > como LaTeX, Overleaf, RMmarkdown, entrega tanto el PDF como la carpeta
 > (comprimida en ZIP) conteniendo los archivos necesarios para compilar
 > el PDF.
+
+> Contenido recomendado. Entrega capturas del resultado y/o del proceso.
+> Redacta un párrafo sobre el proceso seguido (metodología, técnicas) y
+> otro párrafo, o una oración, sobre el resultado obtenido, donde puedes
+> escribir las coordenadas, el error promedio, la captura propiamente de
+> las soluciones obtenidas, y lo que entiendas que corresponde al
+> resultado.
 
 -   [Datos
     GNSS](https://drive.google.com/drive/folders/1X6hwwo6vWaeIfgHXPt0J82X4EFcXFGMP?usp=drive_link)

@@ -12,4 +12,4 @@
 
 <!-- ## [Practica 5. Realiza un flujo de trabajo completo de morfometría fluvial / hidrología computacional](practica-05.md) -->
 
-## [Práctica 6. Práctica con datos GNSS](practica-06.md)
+## [Práctica 6. Procesa y obtén soluciones fijas con datos GNSS](practica-06.md)
